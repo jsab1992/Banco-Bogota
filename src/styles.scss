@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+
+body{
+  font-family: 'sans-serif' !important;
+  color: #435168;
+}
+
+nav.navbar.navbar-light.bg-blue {
+  background-color: #0d51a3;
+  border-bottom: 5px solid #ffb400;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+

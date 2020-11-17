@@ -1,0 +1,78 @@
+<h1 class="text-center font-weight-bold">Formulario Empleados</h1>
+<div class="row text-right">
+  <div class="col">
+    <button class="btn btn-primary mb-5" routerLink="/table">
+      <i class="fa fa-arrow-left"></i>
+      Mostar
+    </button>
+  </div>
+</div>
+
+<div class="col-6 container animated fadeIn faster">
+  <form (ngSubmit)="guardar(f)" #f="ngForm">
+    <div class="form-group">
+      <label>ID Empelado</label>
+      <input
+        type="text"
+        disabled="disabled"
+        placeholder="ID Empleado"
+        class="form-control"
+        name="id"
+        [(ngModel)]="empleado.id"
+      />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Nombre:</label>
+      <input
+        type="text"
+        class="form-control"
+        [class.is-invalid]="name.invalid && name.touched"
+        name="name"
+        required
+        minlength="5"
+        [(ngModel)]="empleado.name"
+        #name="ngModel"
+      />
+      <small
+        *ngIf="name.invalid && name.touched"
+        class="form-text text-danger"
+        >El correo es obligatorio</small>
+    </div>
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="exampleInputPassword1">Funciones:</label>
+        <input
+          type="text"
+          class="form-control"
+          name="funciones"
+          [(ngModel)]="empleado.funciones"
+        />
+      </div>
+      <div class="form-group col-md-6">
+        <label for="exampleInputPassword1">Jefe:</label>
+        <input
+          type="text"
+          class="form-control"
+          name="jefe"
+          [(ngModel)]="empleado.jefe"
+        />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>ROL:</label>
+      <select class="form-control" name="rol" [(ngModel)]="empleado.rol" >
+        <option *ngFor="let item of empleado.rol " [value]="item">
+          {{ item }}
+        </option>
+      </select>
+    </div>
+
+    <div class="form-group text-center">
+      <button type="submit" class="btn btn-primary w-25">
+        <i class="fa fa-save"></i>
+        Submit
+      </button>
+    </div>
+  </form>
+</div>

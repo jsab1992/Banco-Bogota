@@ -1,27 +1,43 @@
-# BancoDeBogota
+# BancoDeBogota 🚀
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
-## Development server
+Este proyecto se generó con [Angular CLI]  [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Instalacion de proyecto 📋
 
-## Code scaffolding
+Una pequeña introducción sobre la instalación. 
+```
+$ git clone https://github.com/jsab1992/Banco-Bogota.git
+$ cd ..\banco-de-bogota\
+$ npm install
+$ ng serve -o 
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Servidor de desarrollo 🔧
 
-## Build
+Ejecute en la consola en la ruta \banco-de-bogota `ng serve` para un servidor de desarrollo. Navegue a `http: // localhost: 4200 /`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Vista de proyecto 📈
+## Formulario Empleados
+![alt text](https://github.com/jsab1992/Banco-Bogota/tree/main/src/Formulario-empleados.png)
+## TablaEmpleados
+![alt text](https://github.com/jsab1992/Banco-Bogota/tree/main/src/Formulario-empleados.png)
 
-## Running unit tests
+## Construido con 🛠️
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_Las herramientas que utilizadas para crear tu BancoDeBogota_
 
-## Running end-to-end tests
+* [sweetalert2](https://sweetalert2.github.io/) - El framework Un reemplazo hermoso, sensible, personalizable y accesible (WAI-ARIA) para los cuadros emergentes de JavaScript, bifurcación compatible de sweetalert.
+ 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* [Boostrap](https://getbootstrap.com/) - Cree sitios rápidos y receptivos con Bootstrap
+Diseñe y personalice rápidamente sitios receptivos para dispositivos móviles con Bootstrap, el kit de herramientas de código abierto front-end más popular del mundo, que presenta variables y mixins de Sass, sistema de cuadrícula receptivo, amplios componentes prediseñados y potentes complementos de JavaScript.
+* [Font Awesome](https://fontawesome.com/) - El conjunto de iconos más popular y fácil de usar del mundo acaba de recibir una actualización. Más iconos. Más estilos. Mas opciones.
+* [Firebase](https://console.firebase.google.com/) - Firebase lo ayuda a crear, mejorar y hacer crecer sus aplicaciones móviles. ¡Compruébalo hoy! Encuentre todos los documentos que necesita para comenzar con Firebase en minutos. ¡Aprende más! Cree aplicaciones extraordinarias. Construya rápido para cualquier dispositivo. Para aplicaciones móviles o web.
+* [Animate.css](https://animate.style/) - es una biblioteca de animaciones entre navegadores listas para usar que puede utilizar en sus proyectos. Excelente para enfatizar, páginas de inicio, controles deslizantes y guía de atención
 
-## Further help
+## Autores ✒️
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+_Agradezco la oportunidad de participar en el desarrollo de esta prueba de conocimiento practica_
+
+* **Jhonny Alvarez** - *Desarrollador Angular* - [Perfil](https://github.com/jsab1992/Banco-Bogota/tree/main/src/assets/CV/CV%20Jhonny%20Alvarez.pdf)

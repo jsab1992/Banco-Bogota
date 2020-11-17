@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "banco-de-bogota"
+    }
+  },
+  "defaultProject": "banco-de-bogota",
+  "cli": {
+    "analytics": "3ac7bf57-97ee-4bc5-8f54-0aeb4a578d70"
+  }
 }
