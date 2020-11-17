@@ -19,9 +19,9 @@ Ejecute en la consola en la ruta \banco-de-bogota `ng serve` para un servidor de
 
 # Vista de proyecto 📈
 ## Formulario Empleados
-![alt text](https://github.com/jsab1992/Banco-Bogota/tree/main/src/Formulario-empleados.png)
+![alt text](https://github.com/jsab1992/Banco-Bogota/blob/main/src/Formulario-empleados.png?raw=true)
 ## TablaEmpleados
-![alt text](https://github.com/jsab1992/Banco-Bogota/tree/main/src/Formulario-empleados.png)
+![alt text](https://github.com/jsab1992/Banco-Bogota/blob/main/src/Tabla-empleados.png?raw=true)
 
 ## Construido con 🛠️
 
