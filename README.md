@@ -19,6 +19,12 @@ Ejecute en la consola en la ruta \banco-de-bogota `ng serve` para un servidor de
 
 # Vista de proyecto 📈
 ## Formulario Empleados
+
+## Demo de la aplicación
+
+* [URL](https://getbootstrap.com/): https://condescending-fermi-d21bcc.netlify.app/
+
+
 ![alt text](https://github.com/jsab1992/Banco-Bogota/blob/main/src/Formulario-empleados.png?raw=true)
 ## TablaEmpleados
 ![alt text](https://github.com/jsab1992/Banco-Bogota/blob/main/src/Tabla-empleados.png?raw=true)
