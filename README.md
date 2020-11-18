@@ -18,11 +18,12 @@ $ ng serve -o
 Ejecute en la consola en la ruta \banco-de-bogota `ng serve` para un servidor de desarrollo. Navegue a `http: // localhost: 4200 /`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
 # Vista de proyecto 📈
-## Formulario Empleados
 
 ## Demo de la aplicación
 
-* [URL](https://getbootstrap.com/): https://condescending-fermi-d21bcc.netlify.app/
+* URL: https://condescending-fermi-d21bcc.netlify.app/
+
+## Formulario Empleados
 
 
 ![alt text](https://github.com/jsab1992/Banco-Bogota/blob/main/src/Formulario-empleados.png?raw=true)
