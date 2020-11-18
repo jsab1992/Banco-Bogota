@@ -1,14 +1,14 @@
 <h1 class="text-center font-weight-bold">Formulario Empleados</h1>
 <div class="row text-right">
   <div class="col">
-    <button class="btn btn-primary mb-5" routerLink="/table">
+    <button class="btn btn-primary mb-5 mt-5" routerLink="/table">
       <i class="fa fa-arrow-left"></i>
       Mostar
     </button>
   </div>
 </div>
 
-<div class="col-6 container animated fadeIn faster">
+<div class="col-md-6 col-sm-12 container animated fadeIn faster">
   <form (ngSubmit)="guardar(f)" #f="ngForm">
     <div class="form-group">
       <label>ID Empelado</label>
@@ -69,7 +69,7 @@
     </div>
 
     <div class="form-group text-center">
-      <button type="submit" class="btn btn-primary w-25">
+      <button type="submit" class="btn btn-primary w-100">
         <i class="fa fa-save"></i>
         Submit
       </button>
