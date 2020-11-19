@@ -24,11 +24,9 @@
       <td>{{ table.name }}</td>
       <td>{{ table.funciones }}</td>
       <td>{{ table.jefe }}</td>
-      <td>
-        <label *ngIf="table.rol[i] === table.rol[0]" class="badge badge-danger">{{ table.rol }}</label>
-        <label *ngIf="table.rol[i] === table.rol[1]" class="badge badge-primary">{{ table.rol }}</label>
-        <label *ngIf="table.rol[i] === table.rol[2]" class="badge badge-success">{{ table.rol }}</label>
-        <label *ngIf="table.rol[i] === table.rol[3]" class="badge badge-warning">{{ table.rol }}</label>
+      <td >
+        <label [ngClass]="getColorRol(table.rol)">{{ table.rol }}</label>
+
       </td>
       <td>
         <button class="btn btn-info mr-1"

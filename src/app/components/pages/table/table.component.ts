@@ -14,17 +14,16 @@ export class TableComponent implements OnInit {
   rol: any[] = [];
   styleExpression = true;
 
-  constructor(private empleadoService: EmployedService) {
-  }
+  constructor(private empleadoService: EmployedService) {}
 
   ngOnInit(): void {
     this.cargando = true;
     this.empleadoService.getEmpleado().subscribe((resp) => {
       this.empleado = resp;
       this.cargando = false;
+      console.log(this.empleado[0]);
     });
 
-    console.log(this.empleado);
   }
 
   borrarHeroe(empleado: empleadoModel, i: number) {
@@ -39,5 +38,18 @@ export class TableComponent implements OnInit {
         this.empleadoService.borrarEmpleado(empleado.id).subscribe();
       }
     });
+  }
+
+  getColorRol(rol) {
+    switch (rol) {
+      case 'Digitador':
+        return 'badge badge-danger';
+      case 'Revisor':
+        return 'badge badge-primary';
+      case 'Asesor':
+        return 'badge badge-success';
+      case 'Programador':
+        return 'badge badge-warning';
+    }
   }
 }
