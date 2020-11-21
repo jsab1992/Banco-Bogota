@@ -1,7 +1,7 @@
-# BancoDeBogota 🚀
+# Prueba para laboratorio digital 🚀
 
 
-Este proyecto se generó con [Angular CLI]  [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+Este proyecto se generó para la admision al laboratorio digital y sera retirado posteriormente culminado el proceso con el area de talento humano con [Angular CLI]  [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
 ## Instalacion de proyecto 📋
 
